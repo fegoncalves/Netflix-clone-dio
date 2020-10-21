@@ -1,0 +1,152 @@
+:root{
+  --vermelho: #E50914;
+  --preta: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+  background: var(--preta);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+.bg-principal{
+  background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url(../img/capa2.jpg);
+  width: auto;
+  height: 700px;
+  padding: 20px 50px;
+  background-size: cover;
+}
+
+header .container{
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+header .logo{
+  margin-top: -10px;
+}
+
+header spam img{
+  width: 90px;
+  height: auto;
+  margin-right: 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: rgb(221, 221, 221);
+}
+
+header .icons-top{
+  font-size: 22px;
+}
+header .icons-top i{  
+  margin-left: 14px;
+}
+header .icons-top a:hover{
+  color: rgb(221, 221, 221);
+}
+
+
+
+
+
+/* Filme principal*/
+.filme-principal .container{
+  margin-top: -20%;
+  margin-bottom: 8%;
+}
+
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.titulo{
+  width: 46%;
+  margin-top: 15%;
+  font-size: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(235, 235, 142);
+}
+
+.descricao{
+  font-size: 22px;
+}
+
+
+
+
+
+.botao-branco{
+  background-color: #FFF;
+  border: none;
+  color: #000;
+  padding: 14px 34px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer; /* usar para que o usuário saber que tem uma ação ali, como essa, um botão */
+  transition: .3s ease all;
+  border-radius: 4px;
+}
+.botao-branco:hover{
+  background-color: rgba(255, 254, 254, 0.70);
+  color: #000;
+}
+
+
+.botao{
+  background-color: rgba(39, 38, 38, 0.5);
+  border: none;
+  color: white;
+  padding: 14px 34px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer; /* usar para que o usuário saber que tem uma ação ali, como essa, um botão */
+  transition: .3s ease all;
+  border-radius: 4px;
+}
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+.botao-branco i,
+.botao i{
+  margin-right: 10px;
+}
+
+.carrosel-filmes h2{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
